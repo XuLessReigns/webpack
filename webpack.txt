@@ -1,0 +1,20 @@
+
+gulp + requirejs + seajs + commonjs + babel.. ==webpack
+
+
+
+
+npm install webpack -g
+
+npm install webpack --save-dev
+
+webpack cmm/C.js index.js 把cmm的文件（common.js浏览器检测不出来）打包成index让浏览器能够渲染
+
+webpack cmm/C.js index.js -p 把cmm的文件打包压缩成index让浏览器能够渲染
+
+
+
+npm install style-loader css-loader sass-loader node-sass --save-dev
+让js、css、sass他们之间可以交流
+
+require("style!css!sass!../css/app.scss");
